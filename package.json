@@ -1,0 +1,14 @@
+{
+  "name": "shopping-cart-jsonserver",
+  "version": "1.0.0",
+  "description": "JSON-Server for shopping cart demo",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json --port 5000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
